@@ -1,0 +1,57 @@
+.background-login {
+    background-image: url("../images/login_background_foto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#gray-box-login{
+    display: flex;
+    background-color: rgba(99, 97, 97, 0.94);
+    text-align: center;
+    /* Deo ispod je zaduzen za poziciju sredisnjeg kvadrata */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    width: 25%;
+}
+
+#login_elements{
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    width: 100%;
+}
+
+#Username{
+    justify-self: center;
+    margin-top: 10%;
+    margin-bottom: 5%;    
+}
+
+#Password{
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#Buttons_row{
+    justify-self: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.btn{
+    white-space: nowrap; /* ceo naziv dugmeta ce biti prikazan u jednom redu */
+}
+
+.login_css{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#response {
+    bottom: 30px;
+}

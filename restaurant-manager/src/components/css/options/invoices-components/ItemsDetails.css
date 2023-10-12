@@ -1,0 +1,196 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.items-main {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 60%;
+}
+
+.main {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 100%;
+    width: 75%;
+}
+    .invoice-data {
+        display: flex;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+    .invoice-data button {
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .invoice-id {
+        margin-right: 1rem;
+    }
+    .invoice-date {
+        margin-right: 1rem;
+    }
+    .invoice-file {
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px black solid;
+    }
+
+    .items-details {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+        .items-details div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .list-of-items {
+            overflow-y: scroll;
+        }
+
+        .column1-items-list input {
+            width: 9ch;
+        }
+        .dropdown-units {
+            font-size: 10;
+            width: 6ch;
+        }
+        .column2-items-list input {
+            width: 17ch;
+        }
+        .column3-items-list input {
+            width: 17ch;
+        }
+        .column4-items-list input {
+            width: 11ch;
+        }
+        .column5-items-list input {
+            width: 10ch;
+        }
+        .column6-items-list input {
+            width: 10ch;
+        }
+        .column7-items-list input {
+            width: 9ch;
+        }
+        .column7-items-list p {
+            margin: 0px;
+        }
+        .column8-items-list input {
+            width: 9ch;
+        }
+        .column9-items-list input {
+            width: 6ch;
+        }
+        .column10-items-list input {
+            width: 9ch;
+        }
+            .column10-items-list p {
+                margin: 0px;
+            }
+        .column11-items-list button {
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+
+    .list-of-invoice-items {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;  
+        width: 100%;
+        align-items: center; 
+        min-height: 20rem;  
+        border: 1px black solid;
+    }
+
+    .items-list-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        min-height: 1.6rem;
+        height: fit-content;
+        width: 100% ;
+        margin: 0px;
+        margin-bottom: 3px;
+    }
+        .items-list-row p {
+            position: relative;
+            display: flex;
+            font-size: 15px;
+            text-wrap: wrap;
+        }
+            .indexNo {
+                width: 3;
+            }
+            .quantity {
+                width:9ch;
+            }
+            .name {
+                width: 17ch;
+            }
+            .brand {
+                width: 17ch;
+            }
+            .exp-date {
+                width: 11ch;
+            }
+            .price {
+                width: 10ch;
+            }
+            .tax {
+                width: 9ch;
+            }
+            .discount-percent {
+                width: 6ch;
+            }
+            .discount-value {
+                width: 9ch;
+            }
+            .price-per-unit {
+                width: 9ch;
+            }
+            .rubishbin-list {
+                height: 20px;
+                width: 20px;
+            }
+    .items-list-headers {
+        height: 20px;
+        align-items: flex-start;
+        border: 1px black solid;
+    }
+    .lower-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+        .lower-section-buttons  button{
+            margin-left: 1rem;
+        }
+        .invoice-sumary {
+            display: flex;
+            align-items: flex-start;
+        }
+        .lower-section-results {
+            display: flex;
+        }
+        .invoice-sumary label {
+            font-size: 10px;
+            text-align: left;
+            width: 17ch;
+            margin: 0px;
+        }
+        .invoice-sumary p {
+            margin-right: 5px;
+            font-size: 10px;
+            text-align: left;
+            width: 14ch;
+            margin: 0px;
+        }
+

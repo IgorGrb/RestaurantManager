@@ -1,0 +1,66 @@
+.aside-company {
+    display: flex;
+    height: 90%;
+    width: 25%;
+    background-color: greenyellow;
+    border: 1px black solid;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+    .aside-company-buttons {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: green;
+    }
+
+.aside-company-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 16px;
+    border-bottom: 1px black solid;
+}
+.aside-company-header p {
+    font-size: 11px;
+}
+
+.aside-company-list {
+    display: flex;
+    flex-direction: column;
+/*     align-items: flex-start; */
+    overflow-y: scroll;
+    width: 100%;
+    flex: 1;
+}
+    .list {
+        position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 1px black solid;
+    justify-content: space-between;
+    }
+        .list p {
+        position: relative;
+        display: inline-flex;
+        align-items: flex-start;
+        flex: 3;
+        width: 40%;
+        margin-left: 30px;
+        }
+        .list img {
+            position: relative;
+            display: inline-flex;
+            align-items: flex-start;
+            height: 16px;
+            width: 16px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 3px;
+        }

@@ -1,0 +1,66 @@
+#total {
+    background-color: #ccc; 
+    width: 100%;
+}
+
+.background-div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+#manager-main {
+    flex-grow: 1;
+    display: flex;
+    height: 93vh;
+  }
+
+#manager-center{
+    background-color: rgba(211, 211, 211, 0.519);
+}
+
+#manager-left{
+    background-color: rgba(211, 211, 211, 0.519);
+}
+
+#receipt-item-list{
+    text-align: center;
+    width: inherit;
+    min-height: 60vh;
+    position: fixed;
+    background-color: rgba(211, 211, 211, 0.519);
+}
+
+#sales-exec-buttons{
+    width: inherit;
+    background-color: rgba(211, 211, 211, 0.519);
+    border-top: 2px, solid, black;
+    bottom: 0;
+    min-height: 33vh;
+    position: fixed;
+}
+
+#table-buttons {
+    width: inherit;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Merge cell borders */
+}
+  
+#table-buttons td {
+    padding: 10px;
+    text-align: center; /* Center the buttons within cells */
+}
+  
+#table-buttons button {
+    width: 100%;
+}
+  
+.scroll-container{
+overflow-y: scroll;
+border: 1px solid #ccc;
+width: 100%;
+min-height: 55vh;
+max-height: 55vh;
+}

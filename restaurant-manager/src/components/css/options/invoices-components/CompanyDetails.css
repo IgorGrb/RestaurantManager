@@ -1,0 +1,166 @@
+.company-details-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 40%;
+    width: 100%;
+}
+.company-details {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px black solid;
+    background-color: whitesmoke;
+    min-height: 180px;
+    height: 90%;
+    width: 75%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;  
+}
+
+.title-company-details {
+    position: absolute;
+    align-self: flex-start;
+}
+
+.column1-company-details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    padding: 0.5rem;
+}
+    .company-logo {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+        min-height: 4rem;
+        min-width: 3.5rem;
+    } 
+
+.column2-company-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: flex-end;
+}
+.column2-company-details input {
+    margin: 2px;
+}
+#invoiceFile {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.column3-company-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: flex-end;
+}
+.column3-company-details input {
+    margin: 2px;
+}
+
+.column4-company-details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 0.5rem;
+    max-width: 25ch;
+}
+.column4-company-details p {
+    position: relative;
+    margin: 2px;
+}
+.contact-input {
+    display: flex;
+    flex-direction: row;
+}
+.contact-input input {
+    display: inline-flex;
+    font-size: 13px;
+    width: 45%;
+    margin: 0px;
+}
+.contact-input img {
+    height: 23px;
+    width: 23px;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: rgb(187, 245, 99);
+}
+
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3.7rem;
+    overflow-y: scroll;
+    border: 1px black solid;
+}
+    .contact-details {
+        display: flex;
+        flex-direction: row;
+        height: 1rem;
+        border-bottom: 1px black solid;
+        width: 100%;
+    }
+        .contact-details p {
+            position: relative;
+            display: inline-flex;
+            justify-content: flex-start;
+            margin: 2px;
+            font-size: 10px;
+            width: 45%;
+        }
+        .contact-details img {
+            position: relative;
+            display: inline-flex;
+            margin: 3px;
+            height: 10px;
+            width: 10px;
+        }
+
+.column5-company-details {
+    display: flex;
+    flex-direction: column;
+}
+.column5-company-details textarea {
+    height: 80px;
+    width: 180px;
+    font-size: 12px;
+}
+.column5-company-details button {
+    margin: 7px;
+    font-size: 12px;
+}
+
+.column6-company-details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 0.5rem;
+}
+    .column6-company-details button {
+        margin: 5px;
+    }
+    .column6-company-details div {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .column6-company-details div input{
+        display: flex;
+        position: relative;
+        width: fit-content;
+        margin: 3px;
+    }
+

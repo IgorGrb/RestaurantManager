@@ -1,0 +1,45 @@
+#gray-box-createuser{
+    display: flex;
+    background-color: rgba(99, 97, 97, 0.94);
+    text-align: center;
+    /* Deo ispod je zaduzen za poziciju sredisnjeg kvadrata */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 35%;
+    width: 25%;
+}
+
+#create_user_elements {
+    margin-left: 3%;
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    width: 94%; 
+}
+
+#position {
+    height: 1.9rem;
+}
+
+.createUser {
+    height: 1.9rem;
+}
+
+#Buttons_row{
+    justify-self: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.btn{
+    white-space: nowrap; /* ceo naziv dugmeta ce biti prikazan u jednom redu */
+}
+
+#response {
+    color: brown;
+    background-color: rgba(240, 248, 255, 0.524) ;
+    border-color: black;
+}

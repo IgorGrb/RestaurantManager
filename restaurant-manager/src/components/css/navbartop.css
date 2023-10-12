@@ -1,0 +1,7 @@
+.navbar-manager{
+    height: 7vh;
+}
+
+.selected-user {
+    background-color: rgb(35, 155, 155);
+}

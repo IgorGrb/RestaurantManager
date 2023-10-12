@@ -1,0 +1,64 @@
+.aside-invoices {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    background-color: red;
+    border: 1px black solid;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-right: 1.5rem;
+}
+.aside-invoices-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: darkred;
+}
+
+.aside-invoice-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 16px;
+    border-bottom: 1px black solid;
+}
+    .aside-invoice-header p {
+        font-size: 11px;
+    }
+
+.aside-invoice-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    flex: 1;
+}
+    .list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        height: fit-content;
+        border-bottom: 1px black solid;
+        justify-content: space-between;
+    }
+        .list p {
+        position: relative;
+        display: inline-flex;
+        font-size: 13px;
+        width: 30%;
+        margin-left: 5px;
+        }
+        .list img {
+            position: relative;
+            display: inline-flex;
+            align-items: flex-start;
+            height: 15px;
+            width: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 3px;
+        }
+
+

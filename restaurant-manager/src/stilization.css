@@ -1,0 +1,16 @@
+
+
+.list-group-item {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+.list-group-item.selected {
+    background-color: lightblue;
+}
+
+.usersList {
+    cursor: pointer;
+}
+
