@@ -1,0 +1,11 @@
+.group-comp-main {
+    position: relative;
+    margin: 1.5rem;
+}
+.group-comp-main div {
+    margin-left: 1.5rem;
+}
+.group-comp-fields {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.recipe-comp-main {
+    position: relative;
+    margin: 1.5rem;
+}
+.recipe-comp-main div {
+    margin-left: 1.5rem;
+}
+.recipe-comp-fields {
+    display: flex;
+    flex-direction: column;
+}

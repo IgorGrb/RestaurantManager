@@ -1,0 +1,14 @@
+.ing-comp-main {
+    position: relative;
+    margin: 1.5rem;
+}
+.ing-comp-main div {
+    margin-left: 1.5rem;
+}
+.ing-comp-main p {
+    margin: 0px;
+}
+.ing-comp-fields {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,12 @@
+setup.py
+Server.egg-info/PKG-INFO
+Server.egg-info/SOURCES.txt
+Server.egg-info/dependency_links.txt
+Server.egg-info/top_level.txt
+core_proccesses/CP_meny.py
+core_proccesses/__init__.py
+database/DB_engines.py
+database/DB_models.py
+database/DB_proc_invoices.py
+database/DB_proc_meni.py
+database/__init__.py

@@ -1,0 +1,18 @@
+
+[develop]
+codecov
+pycodestyle
+pytest-cov
+pytest>=4.6
+wheel
+
+[docs]
+sphinx
+
+[gmpy]
+
+[gmpy:platform_python_implementation != "PyPy"]
+gmpy2>=2.1.0a4
+
+[tests]
+pytest>=4.6
