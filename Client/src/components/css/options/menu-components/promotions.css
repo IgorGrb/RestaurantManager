@@ -1,11 +1,38 @@
 .promo-comp-main {
+    display: flex;
+    align-items: flex-end;
     position: relative;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    background-color: whitesmoke;
+    height: 23%;
 }
 .promo-comp-main div {
     margin-left: 1.5rem;
 }
-.promo-comp-fields {
+.promo-comp-main p {
+    margin: 0px;
+}
+.promo-comp-column1 {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
 }
+
+.promo-comp-column2 {
+    height: 100%;
+    width: 20%;
+}
+    .promo-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        overflow-y: scroll;
+        border: 1px black solid;
+    }
+    .promo-ing-list-bottom {
+        display: flex;
+        flex-direction: row;
+    }

@@ -65,3 +65,40 @@ class Group:
         pass
 
 
+
+@company_router.post("/invoices/")
+async def saveCompanyData(data : dict):
+    command = data.command
+    try:
+        if command == "saveCompanyData":
+            pass
+
+        if command == "loadCompanyData":
+            pass
+
+
+
+        logo = data.get('logo', '').encode('utf-8')
+        icon = data.get('icon', '').encode('utf-8')
+
+        insert_data = (data['companyID'], 
+                        data['companyName'], 
+                        logo, 
+                        icon, 
+                        data['address'], 
+                        data['phoneNumber'], 
+                        data['website'], 
+                        json.dumps(data['contactList']), 
+                        data['comment'])
+        
+        response = DB_procedures.POST.save_company_data(insert_data)
+
+        if response:
+            return JSONResponse(content={"message" : response[0:2]})
+        
+        else:
+            Error_collector.collect_error(f"Problem with saveing company data\nInput data: {[data]}")
+    
+    except sqlite3.IntegrityError as e:
+        return JSONResponse(content="Company already exists", status_code=400)
+

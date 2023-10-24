@@ -115,47 +115,58 @@ class UserProcessorRouter:
 class InvoiceProcessorRouter:
     @classmethod
     def get_company_list(cls):
-        pass
+        response = CP_invoices.Invoices.get_companies_list()
+        return response
 
     @classmethod
     def get_invoice_list(cls):
-        pass
+        response = CP_invoices.Invoices.get_invoices_list()
+        return response
 
     @classmethod
     def save_company_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.save_company_data(data)
+        return response
 
     @classmethod
     def load_company_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.load_company_data(data)
+        return response
 
     @classmethod
     def save_invoice_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.save_invoice_data(data)
+        return response
 
     @classmethod
     def load_invoice_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.load_invoice_data(data)
+        return response
 
     @classmethod
     def update_company_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.update_company_data(data)
+        return response
 
     @classmethod
     def update_company_comment(cls, data):
-        pass
+        response = CP_invoices.Invoices.update_company_comment(data)
+        return response
 
     @classmethod
     def update_invoice_data(cls, data):
-        pass
+        response = CP_invoices.Invoices.update_invoice_data(data)
+        return response
 
     @classmethod
     def delete_company(cls, data):
-        pass
+        response = CP_invoices.Invoices.delete_company(data)
+        return response
 
     @classmethod
     def delete_invoice(cls, data):
-        pass
+        response = CP_invoices.Invoices.delete_invoice(data)
+        return response
 
 class MenuProcessorRouter:
     pass

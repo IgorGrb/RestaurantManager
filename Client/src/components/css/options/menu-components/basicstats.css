@@ -1,0 +1,36 @@
+.basic-stats-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 35%;
+    max-height: 100%;
+    background-color: whitesmoke;
+    border: 1px darkgray solid;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.basic-stats {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.basic-stats-info {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.basic-stats-info div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    border: 1px blue solid;
+}

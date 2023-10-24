@@ -31,7 +31,7 @@ class RequestHandler(BaseHTTPRequestHandler):
         try:          
             if command == 'getCompaniesList': # READY
                 try:
-                    status, response = InvoiceProcessorRouter.get_companies_list()
+                    status, response = InvoiceProcessorRouter.get_company_list()
                     self.send_response_to_client(status, response)
 
                 except:
@@ -40,7 +40,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 
             elif command == "getInvoicesList":
                 try:
-                    status, response = InvoiceProcessorRouter.get_invoices_list()
+                    status, response = InvoiceProcessorRouter.get_invoice_list()
                     self.send_response_to_client(status, response)
 
                 except:
